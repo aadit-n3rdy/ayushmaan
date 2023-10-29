@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title>Document</title>
+				<link rel="stylesheet" href="index.css">
+		</head>
+
+		<body>
+
+				<div class="cotn_principal">
+						<div class="cont_centrar">
+								<div class="cont_login">
+										<div class="cont_info_log_sign_up">
+												<div class="col_md_login">
+														<div class="cont_ba_opcitiy">
+
+																<h2>LOGIN</h2>  
+																<p>Already have an Account?</p> 
+																<button class="btn_login" onclick="change_to_login()">LOGIN</button>
+														</div>
+												</div>
+												<div class="col_md_sign_up">
+														<div class="cont_ba_opcitiy">
+																<h2>SIGN UP</h2>
+
+
+																<p>New to the portal?</p><p> Create an Account</p>
+
+																<button class="btn_sign_up" onclick="change_to_sign_up()">SIGN UP</button>
+														</div>
+												</div>
+										</div>
+
+
+										<div class="cont_back_info">
+												<div class="cont_img_back_grey">
+														<img src="sharpen_ministry_of_ayush.jpeg" alt="" />
+												</div>
+
+										</div>
+										<div class="cont_forms" >
+												<div class="cont_img_back_">
+														<img src="sharpen_ministry_of_ayush.jpeg" alt="" />
+												</div>
+												<form action="" class="cont_form_login">
+														<a href="#" onclick="hidden_login_and_sign_up()" ><i class="material-icons">Return</i></a>
+														<h2>LOGIN</h2>
+														<input required name="email" type="email" placeholder="Email" />
+														<input required name="pass" type="password" placeholder="Password" />
+														<button type="submit" value="LOGIN" class="btn_login" onclick="change_to_login()">LOGIN</button>
+												</form>
+
+												<form action="" class="cont_form_sign_up">
+														<a href="#" onclick="hidden_login_and_sign_up()">
+																<i class="material-icons">Return</i>
+														</a>
+														<h2>SIGN UP</h2>
+														<input required name="uname" type="text" placeholder="Username" />
+														<input required name="email" type="email" placeholder="Email" />
+														<input required name="phno" type="tel" placeholder="Phone Number" />
+														<input required name="type" type="text" placeholder="Register-As" />
+														<input required name="pass" type="password" placeholder="Password" />
+														<input required name="cpass" type="password" placeholder="Confirm Password" />
+														<button type="submit" class="btn_sign_up" onclick="change_to_sign_up()" value="SIGN UP">SIGN UP</button>
+												</form>
+										</div>
+								</div>
+						</div>
+				</div>
+
+				<script src="index.js"></script>
+		</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "ayushmaan",
+  "version": "1.0.0",
+  "description": "A platform for AYUSH startups, investors, accelerators and incubators to interact",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "password-hash-and-salt": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

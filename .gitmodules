@@ -1,0 +1,3 @@
+[submodule "static/home"]
+	path = static/home
+	url = http://github.com/pranavsuriya-sr/sihHome
